@@ -109,7 +109,7 @@ const config = {
             items: [
               {
                 label: 'Theme',
-                to: '/theme/intro',
+                to: '/docs/theme/intro',
               },
             ],
           },
@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'Redmine',
-                to: '/redmine/intro',
+                to: '/docs/redmine/intro',
               },
             ],
           },

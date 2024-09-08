@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tantic/redmine_asap_docs/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tantic/redmine_asap_docs/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -72,21 +72,28 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/redmine_asap_suite.png',
       navbar: {
         title: 'Redmine Asap Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/redmine_asap_suite.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'themeSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Theme',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'redmineSidebar',
+            position: 'left',
+            label: 'Redmine',
+            to: '/docs/redmine',
+          },
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -98,28 +105,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Theme',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Theme',
+                to: '/theme/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Redmine',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Redmine',
+                to: '/redmine/intro',
               },
             ],
           },
@@ -132,12 +131,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/tantic/redmine_asap_docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Redmine Asap Docs, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -19,6 +19,8 @@ But I have to say that after 10 years of using it, the UX and the UI are now qui
 
 So let's try to do something different! First version just a new version not a revolution, we'll see later how this could better.
 
+Everything is open source and for the community. If it can help the core team to test new things it would be great.
+
 ## What?
 
 A brand new theme whith a new layout and some principles

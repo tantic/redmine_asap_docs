@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Screenshots
@@ -8,6 +8,6 @@ sidebar_position: 1
 
 ![Login](./img/login.png)
 
-## Welcome page
+## Preferences
 
-![Login](./img/welcome-1.png)
+![Login](./img/preferences.png)

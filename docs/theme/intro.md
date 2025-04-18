@@ -4,12 +4,13 @@ sidebar_position: 1
 
 # Introduction
 
-This plugin try to propose a new UX/UI for Redmine and try new tools like stimulus/turbo and Tailwindcss (one day Hotwire :smiley:).
+This plugin try to propose a new UX/UI for Redmine with new tools like Stimulus/Turbo and Tailwindcss (one day Hotwire :-)).
+The first version started almost from a blank page by replacing all Redmine pages. It worked but it's not enough progressive.
+This version start from the original theme of Redmine so all pages works (normally) and the theme can be used now.
 
-* Status : in development and for fun not a real plugin for now.
-* Compatibility : Redmine 5.1.1
+* Status : first version usable but need to be used and improved (feedback appreciated)
+* Compatibility : work for Redmine >=6 (other versions not tested)
 
-If you want to test it quickly with docker, you can use the repo https://github.com/tantic/redmine_asap_docker.git
 
 
 ## Why?

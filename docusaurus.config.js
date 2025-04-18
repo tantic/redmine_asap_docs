@@ -46,21 +46,6 @@ const config = {
           editUrl:
             'https://github.com/tantic/redmine_asap_docs/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/tantic/redmine_asap_docs/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -93,9 +78,8 @@ const config = {
             label: 'Redmine',
             to: '/docs/redmine',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tantic/redmine_asap_docs',
             label: 'GitHub',
             position: 'right',
           },

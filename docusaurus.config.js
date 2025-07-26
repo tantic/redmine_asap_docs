@@ -73,6 +73,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'userFeaturesSidebar',
+            position: 'left',
+            label: 'User features',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'redmineSidebar',
             position: 'left',
             label: 'Redmine',
@@ -94,6 +100,15 @@ const config = {
               {
                 label: 'Theme',
                 to: '/docs/theme/intro',
+              },
+            ],
+          },
+          {
+            title: 'User features',
+            items: [
+              {
+                label: 'User features',
+                to: '/docs/user-features/intro',
               },
             ],
           },

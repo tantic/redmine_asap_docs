@@ -42,6 +42,13 @@ bundle exec rake redmine:plugins:migrate NAME=<plugin_name> VERSION=0
 bundle exec rake redmine:plugins:migrate NAME=redmine_asap_pilot VERSION=0
 ```
 
+## Misc
+
+```
+# Generate icon from a config/icon_source.yml file
+bundle exec rake icons:plugin:generate NAME=redmine_plugin_name
+```
+
 ## Administration
 
 ```
@@ -54,3 +61,4 @@ bundle exec rake tmp:cache:clear RAILS_ENV=production
 # Generate secret (sign and verify cookies, especially session cookies, and other encrypted data => If you change the token, all existing signed cookies/sessions become invalid, users will be logged out
 bundle exec rake generate_secret_token
 ```
+

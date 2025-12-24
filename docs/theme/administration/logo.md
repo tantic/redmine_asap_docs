@@ -14,7 +14,7 @@ You need administrator privilege to customize the logo.
 Go to admin area > theme
 (direct link : redmine_url/settings/plugin/redmine_asap_theme)
 
-Fill the field background-color with hexadecimal color code
+Fill the field background-color with hexadecimal color code, you can also configure the color on hover.
 
 ![Login](./img/logo-admin.png)
 
